@@ -1,0 +1,47 @@
+/* Estilo geral */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Menu */
+nav {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Links do menu */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Conteúdo */
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Título */
+h2 {
+    border-bottom: 2px solid #00bcd4;
+}
+
+/* Campos */
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+/* Botão */
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px;
+}
